@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -9,6 +10,49 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
+.availability{
+position: absolute;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: space-around;
+min-width: 40%;
+width: 300px;
+height: 100px;
+left: 50%;
+top: 2%;
+background: #D66939;
+}
+
+.check_btn{
+	background-color: #fff;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+
+}
+.availability_btn{
+	background: #000000;
+	color: #fff;
+
+}#detached{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#firstdiv{
+	display: flex;
+	flex-direction: column;
+}
+#seconddiv{
+	display: flex;
+	flex-direction: column;
+}
+.customer_no{
+	width: 30px;
+	justify-content: space-between;
+}
+
 #about{
 	position: absolute;
 	width: 180px;
